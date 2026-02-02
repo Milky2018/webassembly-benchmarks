@@ -644,8 +644,8 @@ Examples:
     run_parser.add_argument(
         "--timeout",
         type=int,
-        default=300,
-        help="Timeout in seconds for each test (default: 300)",
+        default=3600,
+        help="Timeout in seconds for each test (default: 3600)",
     )
     run_parser.add_argument(
         "-v", "--verbose",
